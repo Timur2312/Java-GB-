@@ -9,6 +9,7 @@ public class DZ1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String n = in.nextLine();
+        in.close();
         if (CheckNumber(n) == true) {
             double number = Double.parseDouble(n);
             double result = TriangularNumber(number);
