@@ -1,4 +1,4 @@
-package Lesson_1.Seminar_1;
+package Lesson_1;
 
 /*
  * Переносит определенное значение с конец массива
