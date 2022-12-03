@@ -11,7 +11,7 @@ public class DZ3 {
         in.close();
         String[] values = strings.split(" ");
         if (values.length > 3 || values.length < 3) {
-            System.out.println("Что-то пошло не так! Вы точно ввели все верно ? ");
+            PrintError();
         }
         else{
             String valueOne = values[0];
@@ -22,7 +22,7 @@ public class DZ3 {
                 Calculate(firstNumber, secondNumber, values);
             }
             else
-                System.out.println("Накосячи хуеплет");
+                PrintError();
         }
     }
     static double CheckNUmber (String firstNumber) {
@@ -53,8 +53,11 @@ public class DZ3 {
                 System.out.printf("%s / %s = %.2f", values[0], values[2], result);
                 break;
             default:
-                System.out.println("Накосячи хуеплет");
+                PrintError();
                 break;
         }
+    }
+    static void PrintError (){
+        System.out.println("Что-то пошло не так! Вы точно ввели все верно ? ");
     }
 }
