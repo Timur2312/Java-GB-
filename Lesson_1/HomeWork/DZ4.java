@@ -10,9 +10,9 @@ package Lesson_1.HomeWork;
 public class DZ4 {
 
 public static void main(String[] args) {
-    var firstValue = 68;
-    var secondValue = 2;
-    var result = 69;
+    int firstValue = 68;
+    int secondValue = 2;
+    int result = 69;
     boolean stop = true;
     if (firstValue > result || secondValue > result || firstValue + secondValue > result) {
         System.out.println("ошибка");
