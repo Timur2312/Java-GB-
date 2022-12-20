@@ -1,9 +1,9 @@
 package Lesson_2;
 
-import java.io.File;
+
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
+
 
 /**
  * Напишите метод, который составит строку, состоящую из 100 повторений слова
